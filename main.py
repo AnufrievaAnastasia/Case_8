@@ -36,3 +36,6 @@ number = get_num_hexagons()
 
 def draw_hexagon(x, y, side_len, color):
 
+    d_2 = 250
+    d_2_n = d_2 // number # это d в зависимости от количества фигур
+    s = int((3**0.5) / 2 * d_2_n) # это дина стороны шестиугольника
