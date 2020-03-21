@@ -1,3 +1,6 @@
+# Anufrieva A. (60%)
+# Zhuravleva A. (55%)
+
 import turtle
 import math
 
