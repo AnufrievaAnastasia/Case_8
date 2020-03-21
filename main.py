@@ -4,6 +4,8 @@
 import turtle
 import math
 
+# get fill color
+
 def get_color_choice():
 
     color = input('Допустимые цвета заливки:\n'
@@ -22,6 +24,9 @@ def get_color_choice():
         color = input().lower()
     return color
 
+
+#get the number of hexagons
+
 def get_num_hexagons():
     try:
         number = int(input('Пожалуйста, введите количество шестиугольников, располагаемых в ряд: '))
@@ -36,6 +41,8 @@ def get_num_hexagons():
 color1 = get_color_choice()
 color2 = get_color_choice()
 number = get_num_hexagons()
+
+# draw a hexagon
 
 def draw_hexagon(x, y, side_len):
     '''
